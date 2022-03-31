@@ -15,7 +15,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Seabreeze Myrtle Sound',
-            image: '/Volumes/Extreme SSD/Naomi website/storytelling-main/src/images/Seabreeze Myrtle sound.jpeg',
+            image: 'tertsert.github.io/images/Seabreeze Myrtle sound.jpeg',
             description: "Seabreeze's origins were established on 99 acres of undeveloped land purchased before the end of the civil war by formerly enslaved Alexander and Charity Freeman. Over the hundred years that followed, the area developed into a thriving beach resort and one of the only places open to African Americans along the east coast during Jim Crow",
             location: {
                 center: [-77.88386, 34.06508], 
@@ -45,7 +45,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Seabreeze Myrtle Sound',
-            image: '/Volumes/Extreme SSD/Naomi website/storytelling-main/src/images/Freeman family article.jpeg',
+            image: 'tertsert.github.io/images/Freeman family article.jpeg',
             description: "After segregation ended, and after a sequence of human- made and natural coastal disasters, Seabreeze faded as a resort community. Today, there are few physical traces left to recall the vibrancy of its heyday. Many extended Freeman family members are still in residence, though much of the property in the neighborhood is undevelopable and under threat as heirs property.",
             location: {
                	center: [-77.88386, 34.06508], 
@@ -64,7 +64,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Wake County',
-            image: '/Volumes/Extreme SSD/Naomi website/storytelling-main/src/images/Townships.png',
+            image: 'tertsert.github.io/images/Townships.png',
             description: 'Filler text',
             location: {
                	center: [-78.38189, 35.78975],
@@ -103,7 +103,7 @@ var config = {
             alignment: 'right',
             hidden: true,
             title: 'Wake County',
-            image: '/Volumes/Extreme SSD/Naomi website/storytelling-main/src/images/Townships.png',
+            image: 'tertsert.github.io/images/Townships.png',
             description: 'Filler text',
             location: {
                	center: [-78.38189, 35.78975],
