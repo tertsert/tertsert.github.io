@@ -15,7 +15,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Seabreeze Myrtle Sound',
-            image: 'tertsert.github.io/images/Seabreeze Myrtle sound.jpeg',
+            image: '<a href="https://imgur.com/C3q0u4m"><img src="https://i.imgur.com/C3q0u4m.jpg" title="source: imgur.com" /></a>',
             description: "Seabreeze's origins were established on 99 acres of undeveloped land purchased before the end of the civil war by formerly enslaved Alexander and Charity Freeman. Over the hundred years that followed, the area developed into a thriving beach resort and one of the only places open to African Americans along the east coast during Jim Crow",
             location: {
                 center: [-77.88386, 34.06508], 
