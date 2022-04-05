@@ -37,7 +37,17 @@ var config = {
             }
 	    
 	    ],
-            onChapterExit: []
+            onChapterExit: [
+	    {
+            		layer: 'county-boundary-5isg3x',
+                 	opacity: 0
+            },
+            {
+            		layer: 'townships-1-azzt4t',
+                 	opacity: 0
+            }
+	    
+	    ]
         },
         {
             id: 'Chapter 1 sub 1: The Barrel',
