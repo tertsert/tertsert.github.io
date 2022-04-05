@@ -26,19 +26,8 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
-            ]
+            onChapterEnter: [],
+            onChapterExit: []
         },
         {
             id: 'Chapter 1 sub 1: The Barrel',
@@ -99,7 +88,7 @@ var config = {
             ]
         },
          {
-            id: 'Chapter 2: Wake County',
+            id: 'Chapter 2 sub 1: Wake County',
             alignment: 'right',
             hidden: true,
             title: 'Wake County',
