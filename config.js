@@ -110,7 +110,7 @@ var config = {
          {
             id: 'Chapter 2 sub 1: Wake County',
             alignment: 'right',
-            hidden: true,
+            hidden: false,
             title: 'Wake County',
             image: 'tertsert.github.io/images/Townships.png',
             description: 'Filler text',
