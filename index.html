@@ -260,6 +260,13 @@ if (config.showMarkers) {
     marker.setLngLat(config.chapters[0].location.center).addTo(map);
 }
 
+ //This is a test to add an image
+ var imageUrl = 'http://www.lib.utexas.edu/maps/historical/newark_nj_1922.jpg',
+    imageBounds = [[35.392261, -82.500274], [33.718605, -79.256868]];
+
+L.imageOverlay(imageUrl, imageBounds).addTo(map);
+    
+    
 // instantiate the scrollama
 var scroller = scrollama();
 
