@@ -2,16 +2,14 @@
 <html>
 <head>
 
-    <!-- David is awesome and very cool indeed -->
-    <!-- again david is awesome -->
     <meta charset='utf-8' />
-    <title>Mapbox Storytelling</title>
+    <title>Understanding Heirs Property</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css' rel='stylesheet' />
     <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
     <script src="https://unpkg.com/scrollama"></script>
-    <style>
+    <style>    
         body {
             margin:0;
             padding:0;
@@ -29,13 +27,25 @@
         #header {
             margin: auto;
             width: 100%;
-            position: relative;
+            height: 0px;
+            position: fixed;
             z-index: 5;
         }
-        #header h1, #header h2, #header p {
-            margin: 0;
+        #header h1 {
+            font-size: 40px;
+            margin: 100;
             padding: 2vh 2vw;
-            text-align: center;
+            text-align: left;
+        }
+        #header h2 {
+            margin: 100;
+            padding: 2vh 2vw;
+            text-align: left;
+        }
+        #header p {
+            margin: 10;
+            padding: 2vh 2vw;
+            text-align: left;
         }
         #footer {
             width: 100%;
@@ -189,7 +199,7 @@ config.chapters.forEach((record, idx) => {
     var chapter = document.createElement('div');
 
     if (record.title) {
-        var title = document.createElement('h3');
+        var title = document.createElement('h1');
         title.innerText = record.title;
         chapter.appendChild(title);
     }
